@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		1ADE209D2C157831006173D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE209C2C157831006173D3 /* AppDelegate.swift */; };
 		1ADE209F2C157831006173D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE209E2C157831006173D3 /* SceneDelegate.swift */; };
-		1ADE20A12C157831006173D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20A02C157831006173D3 /* ViewController.swift */; };
 		1ADE20A62C157832006173D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE20A52C157832006173D3 /* Assets.xcassets */; };
 		1ADE20A92C157832006173D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE20A82C157832006173D3 /* Base */; };
+		1ADE20B52C157AAC006173D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B42C157AAC006173D3 /* TabBarController.swift */; };
+		1ADE20B72C157E24006173D3 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B62C157E24006173D3 /* PhotosCollectionViewController.swift */; };
+		1ADE20B92C157F60006173D3 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ADE20992C157831006173D3 /* PhotoGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADE209C2C157831006173D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ADE209E2C157831006173D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1ADE20A02C157831006173D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1ADE20A52C157832006173D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ADE20A82C157832006173D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADE20AA2C157832006173D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADE20B42C157AAC006173D3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1ADE20B62C157E24006173D3 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,9 @@
 		1ADE20B12C157975006173D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1ADE20A02C157831006173D3 /* ViewController.swift */,
+				1ADE20B42C157AAC006173D3 /* TabBarController.swift */,
+				1ADE20B62C157E24006173D3 /* PhotosCollectionViewController.swift */,
+				1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADE20A12C157831006173D3 /* ViewController.swift in Sources */,
+				1ADE20B52C157AAC006173D3 /* TabBarController.swift in Sources */,
 				1ADE209D2C157831006173D3 /* AppDelegate.swift in Sources */,
+				1ADE20B72C157E24006173D3 /* PhotosCollectionViewController.swift in Sources */,
+				1ADE20B92C157F60006173D3 /* FavouriteViewController.swift in Sources */,
 				1ADE209F2C157831006173D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
