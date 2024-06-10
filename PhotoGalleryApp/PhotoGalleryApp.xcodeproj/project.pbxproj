@@ -16,6 +16,9 @@
 		1ADE20B92C157F60006173D3 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */; };
 		1ADE20BC2C15B5A5006173D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20BB2C15B5A5006173D3 /* NetworkManager.swift */; };
 		1ADE20BE2C16E915006173D3 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */; };
+		1ADE20C12C170726006173D3 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20C02C170726006173D3 /* SearchResponse.swift */; };
+		1ADE20C62C173A61006173D3 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20C52C173A61006173D3 /* PhotoViewCell.swift */; };
+		1ADE20C92C173AAD006173D3 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20C82C173AAD006173D3 /* CellProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		1ADE20BB2C15B5A5006173D3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		1ADE20C02C170726006173D3 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		1ADE20C52C173A61006173D3 /* PhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
+		1ADE20C82C173AAD006173D3 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 		1ADE209B2C157831006173D3 /* PhotoGalleryApp */ = {
 			isa = PBXGroup;
 			children = (
+				1ADE20C72C173A69006173D3 /* Protocols */,
+				1ADE20C22C1739FE006173D3 /* Views */,
+				1ADE20BF2C170710006173D3 /* Models */,
 				1ADE20BA2C15B57C006173D3 /* Services */,
 				1ADE20B12C157975006173D3 /* Controllers */,
 				1ADE20B32C157991006173D3 /* LaunchScreen */,
@@ -114,6 +123,30 @@
 				1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		1ADE20BF2C170710006173D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE20C02C170726006173D3 /* SearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ADE20C22C1739FE006173D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE20C52C173A61006173D3 /* PhotoViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ADE20C72C173A69006173D3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE20C82C173AAD006173D3 /* CellProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +221,14 @@
 			files = (
 				1ADE20BC2C15B5A5006173D3 /* NetworkManager.swift in Sources */,
 				1ADE20BE2C16E915006173D3 /* NetworkDataFetcher.swift in Sources */,
+				1ADE20C62C173A61006173D3 /* PhotoViewCell.swift in Sources */,
 				1ADE20B52C157AAC006173D3 /* TabBarController.swift in Sources */,
 				1ADE209D2C157831006173D3 /* AppDelegate.swift in Sources */,
+				1ADE20C12C170726006173D3 /* SearchResponse.swift in Sources */,
 				1ADE20B72C157E24006173D3 /* PhotosCollectionViewController.swift in Sources */,
 				1ADE20B92C157F60006173D3 /* FavouriteViewController.swift in Sources */,
 				1ADE209F2C157831006173D3 /* SceneDelegate.swift in Sources */,
+				1ADE20C92C173AAD006173D3 /* CellProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
