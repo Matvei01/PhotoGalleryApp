@@ -14,6 +14,8 @@
 		1ADE20B52C157AAC006173D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B42C157AAC006173D3 /* TabBarController.swift */; };
 		1ADE20B72C157E24006173D3 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B62C157E24006173D3 /* PhotosCollectionViewController.swift */; };
 		1ADE20B92C157F60006173D3 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */; };
+		1ADE20BC2C15B5A5006173D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20BB2C15B5A5006173D3 /* NetworkManager.swift */; };
+		1ADE20BE2C16E915006173D3 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1ADE20B42C157AAC006173D3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1ADE20B62C157E24006173D3 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		1ADE20B82C157F60006173D3 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		1ADE20BB2C15B5A5006173D3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		1ADE209B2C157831006173D3 /* PhotoGalleryApp */ = {
 			isa = PBXGroup;
 			children = (
+				1ADE20BA2C15B57C006173D3 /* Services */,
 				1ADE20B12C157975006173D3 /* Controllers */,
 				1ADE20B32C157991006173D3 /* LaunchScreen */,
 				1ADE20B22C157980006173D3 /* Resources */,
@@ -100,6 +105,15 @@
 				1ADE20A72C157832006173D3 /* LaunchScreen.storyboard */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		1ADE20BA2C15B57C006173D3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1ADE20BB2C15B5A5006173D3 /* NetworkManager.swift */,
+				1ADE20BD2C16E915006173D3 /* NetworkDataFetcher.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADE20BC2C15B5A5006173D3 /* NetworkManager.swift in Sources */,
+				1ADE20BE2C16E915006173D3 /* NetworkDataFetcher.swift in Sources */,
 				1ADE20B52C157AAC006173D3 /* TabBarController.swift in Sources */,
 				1ADE209D2C157831006173D3 /* AppDelegate.swift in Sources */,
 				1ADE20B72C157E24006173D3 /* PhotosCollectionViewController.swift in Sources */,

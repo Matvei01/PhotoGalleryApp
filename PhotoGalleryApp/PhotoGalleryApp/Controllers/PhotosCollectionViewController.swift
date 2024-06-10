@@ -12,6 +12,8 @@ final class PhotosCollectionViewController: UICollectionViewController {
     // MARK: -  Private Properties
     private let reuseIdentifier = "CellId"
     
+    private let networkManager = NetworkManager.shared
+    
     // MARK: -  UI Elements
     private lazy var actionBarButtonItem: UIBarButtonItem = {
         let button = UIBarButtonItem(
@@ -108,6 +110,7 @@ final class PhotosCollectionViewController: UICollectionViewController {
 // MARK: - UISearchResultsUpdating
 extension PhotosCollectionViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
+        guard let searchTerm = searchController.searchBar.text, !searchTerm.isEmpty else { return }
         
     }
 }
